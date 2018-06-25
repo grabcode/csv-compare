@@ -34,7 +34,7 @@ const buildIndexBy = (key, arr) => arr.reduce((acc, row, index) => {
     ...acc,
     [row[key]]: {
       ...row,
-      'Line number': index,
+      'Line number': index + 2, // compensate the header's line + array index starts at 0
     },
   };
 }, {});
