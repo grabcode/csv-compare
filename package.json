@@ -1,0 +1,17 @@
+{
+  "name": "csv-compare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Alexandre Girard",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "csvtojson": "^2.0.4",
+    "json2csv": "^4.1.4"
+  }
+}

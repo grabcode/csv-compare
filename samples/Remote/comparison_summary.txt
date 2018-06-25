@@ -1,0 +1,13 @@
+Comparing CSV:
+  - old filepath: samples/Remote/201718-Remote-Price-Guide-30Oct.csv
+  - new filepath: samples/Remote/201819-Remote-Price-Guide.csv
+  - destination folder: samples/Remote
+TOTAL ITEMS NUMBER:  1281
+> OLD FILE ITEMS NUMBER:  625
+> NEW FILE ITEMS NUMBER:  656
+**** **** ****
+SUCCESS, SANITY CHECK IS PASSING
+TOTAL NUMBER OF UNIQUE ITEMS: 712
+> NEW ITEMS NUMBER: 87
+> DELETED ITEMS NUMBER: 56
+> UNCHANGED ITEMS NUMBER: 569
